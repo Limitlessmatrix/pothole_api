@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pothole API</title>
+</head>
+
+<body>
+    <h1>Submit a pothole</h1>
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <div>
+            <label>
+                <span>
+                    Latitude
+                </span>
+                <input type="number" name="latitude" min="-180" max="180" step="0.000000001">
+            </label>
+        </div>
+        <div>
+            <label>
+                <span>
+                    Longitude
+                </span>
+                <input type="number" name="longitude" min="-180" max="180" step="0.000000001">
+            </label>
+        </div>
+        <div>
+            <label>
+                <span>
+                    image file
+                </span>
+                <input type="file" name="image">
+            </label>
+        </div>
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+
+    </form>
+
+</body>
+
+</html>
