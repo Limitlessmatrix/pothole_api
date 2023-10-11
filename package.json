@@ -9,6 +9,7 @@
   "author": "limitlessmatrix <limitbreakerofchains@protonmail.com>",
   "license": "MIT",
   "dependencies": {
+    "exif-js": "^2.3.0",
     "express": "^4.18.2",
     "formidable": "^3.5.1"
   }
