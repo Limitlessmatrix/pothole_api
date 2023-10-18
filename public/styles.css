@@ -1,0 +1,10 @@
+#map {
+    height: 300px;
+    border: 1px red solid;
+}
+input[name="latitude"]{
+    color: green
+}
+input[name="longitude"]{
+    color: rgb(9, 5, 125)
+}

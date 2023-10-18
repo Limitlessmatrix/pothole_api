@@ -22,7 +22,7 @@ app.get('/secret', function (req, res) {
   res.send(message)
 })
 
-app.post('/submit', function (req, res) {
+app.post('/submit', function (req, res, next) {
   console.log("what is the request body?", req)
   const form = formidable({});
 
